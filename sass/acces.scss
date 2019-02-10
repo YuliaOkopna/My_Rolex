@@ -1,0 +1,43 @@
+.acces{
+    background: url(../img/bg-glass.jpg)  no-repeat  center top/cover;
+    width: 100%;
+    height: 491px;
+    .acces_box{
+        max-width: 1070px;
+        margin: 0 auto;
+        display: flex;
+        .acces_phone{
+            padding-top: 100px;
+        }
+        .acces_text{
+            color: #ffffff;
+            h2{
+                font-size: 49px;
+                text-transform: uppercase;
+                padding-bottom:50px;
+                padding-top: 150px;
+            }
+            p{
+                font-size: 20px;
+                padding-bottom:30px;
+            }
+            .arrow{
+                display: flex;
+                a{
+                    text-decoration: none;
+                    color: #ffffff;
+                    font-size: 19px;
+                    padding-left: 6px;
+                    padding-top: 2px;
+                }
+                p{
+                    cursor: pointer;
+                    padding-bottom: 0px;
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                } 
+            }
+        }
+    }
+}

@@ -1,0 +1,142 @@
+/* line 1, ../sass/main_screen.scss */
+.main_screen {
+  background: url(../img/logo_new.jpg) no-repeat center top/cover;
+  height: 100vh;
+  width: 100%;
+}
+
+/* line 7, ../sass/main_screen.scss */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+/* line 11, ../sass/main_screen.scss */
+.header .logo {
+  display: flex;
+}
+/* line 13, ../sass/main_screen.scss */
+.header .logo .logo_img {
+  border: 4px solid #e34141;
+  border-radius: 9px;
+  width: 40px;
+  height: 40px;
+}
+/* line 20, ../sass/main_screen.scss */
+.header .logo .logo_text {
+  text-transform: uppercase;
+  padding-left: 5px;
+}
+/* line 24, ../sass/main_screen.scss */
+.header .logo .logo_text h1 {
+  color: #ffffff;
+  font-size: 30px;
+}
+/* line 28, ../sass/main_screen.scss */
+.header .logo .logo_text p {
+  color: #c2c2c2;
+  font-size: 12px;
+}
+/* line 34, ../sass/main_screen.scss */
+.header .menu {
+  position: relative;
+  width: 45px;
+  height: 45px;
+}
+/* line 39, ../sass/main_screen.scss */
+.header .menu .menu_icon a.icon-menu {
+  font-size: 42px;
+  color: #ffffff;
+  cursor: pointer;
+}
+/* line 45, ../sass/main_screen.scss */
+.header .menu ul:after {
+  display: block;
+  content: ' ';
+  clear: both;
+  float: none;
+}
+/* line 51, ../sass/main_screen.scss */
+.header .menu .nav_list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+/* line 55, ../sass/main_screen.scss */
+.header .menu .nav_list li.nav_item {
+  position: relative;
+}
+/* line 57, ../sass/main_screen.scss */
+.header .menu .nav_list li.nav_item a {
+  display: block;
+  color: #ffffff;
+  background: transparent;
+  border: 1px #c2c2c2 solid;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 3px;
+  font-weight: bold;
+  height: 20px;
+  width: 130px;
+}
+/* line 70, ../sass/main_screen.scss */
+.header .menu .nav_list li.nav_item a:hover {
+  background-color: #c2c2c2;
+  color: #e34141;
+}
+/* line 75, ../sass/main_screen.scss */
+.header .menu .nav_list li.nav_item .subnav_item {
+  display: none;
+  position: absolute;
+  left: -100px;
+  top: 0px;
+}
+/* line 80, ../sass/main_screen.scss */
+.header .menu .nav_list li.nav_item .subnav_item li {
+  display: block;
+}
+/* line 82, ../sass/main_screen.scss */
+.header .menu .nav_list li.nav_item .subnav_item li a {
+  font-size: 11px;
+  display: block;
+  width: 100px;
+  background-color: #e34141;
+  z-index: 1;
+}
+/* line 93, ../sass/main_screen.scss */
+.header .menu ul.nav_list > li:hover > ul.subnav_item {
+  display: block;
+}
+/* line 97, ../sass/main_screen.scss */
+.header .menu .nav_list {
+  display: none;
+}
+/* line 101, ../sass/main_screen.scss */
+.header .menu:hover .nav_list {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: -100px;
+}
+
+/* line 110, ../sass/main_screen.scss */
+.main_text {
+  color: #ffffff;
+  text-transform: uppercase;
+  padding-top: 250px;
+}
+/* line 114, ../sass/main_screen.scss */
+.main_text h2 {
+  font-size: 52px;
+}
+/* line 117, ../sass/main_screen.scss */
+.main_text h1 {
+  font-size: 104px;
+}
+/* line 120, ../sass/main_screen.scss */
+.main_text p {
+  font-size: 26px;
+}

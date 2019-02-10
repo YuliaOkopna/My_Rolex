@@ -1,0 +1,34 @@
+/* line 1, ../sass/common.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 5, ../sass/common.scss */
+.conteiner {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+/* line 10, ../sass/common.scss */
+.services_text {
+  color: #444444;
+  text-align: center;
+}
+/* line 13, ../sass/common.scss */
+.services_text h1 {
+  font-size: 48px;
+  text-transform: uppercase;
+  padding-top: 90px;
+  padding-bottom: 25px;
+}
+/* line 19, ../sass/common.scss */
+.services_text p {
+  color: #666666;
+  font-size: 13px;
+  padding-bottom: 30px;
+}
+/* line 24, ../sass/common.scss */
+.services_text hr {
+  color: #cccccc;
+  margin-bottom: 80px;
+}

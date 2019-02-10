@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+  }
+
+.conteiner{
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.services_text{
+    color: #444444;
+    text-align: center;
+    h1{
+        font-size: 48px;
+        text-transform: uppercase;
+        padding-top: 90px;
+        padding-bottom: 25px;
+    }
+    p{
+        color: #666666;
+        font-size: 13px;
+        padding-bottom: 30px;
+    }
+    hr{
+        color: #cccccc;
+        margin-bottom: 80px;
+    }
+}

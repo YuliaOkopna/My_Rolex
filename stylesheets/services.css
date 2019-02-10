@@ -1,0 +1,66 @@
+/* line 1, ../sass/services.scss */
+.services {
+  margin-bottom: 80px;
+}
+/* line 3, ../sass/services.scss */
+.services .services_text {
+  color: #444444;
+  text-align: center;
+}
+/* line 6, ../sass/services.scss */
+.services .services_text h1 {
+  font-size: 48px;
+  text-transform: uppercase;
+  padding-top: 90px;
+  padding-bottom: 25px;
+}
+/* line 12, ../sass/services.scss */
+.services .services_text p {
+  color: #666666;
+  font-size: 13px;
+  padding-bottom: 30px;
+}
+/* line 17, ../sass/services.scss */
+.services .services_text hr {
+  color: #cccccc;
+}
+/* line 21, ../sass/services.scss */
+.services .services_info {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  padding-top: 100px;
+}
+/* line 26, ../sass/services.scss */
+.services .services_info .services_info-about {
+  display: flex;
+  width: 50%;
+  padding-bottom: 50px;
+}
+/* line 30, ../sass/services.scss */
+.services .services_info .services_info-about img {
+  width: 50px;
+  height: 40px;
+}
+/* line 34, ../sass/services.scss */
+.services .services_info .services_info-about .services_info-about-text {
+  color: #555555;
+  padding-left: 20px;
+}
+/* line 37, ../sass/services.scss */
+.services .services_info .services_info-about .services_info-about-text h3 {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+/* line 42, ../sass/services.scss */
+.services .services_info .services_info-about .services_info-about-text h3:hover {
+  color: #dd0606;
+}
+/* line 46, ../sass/services.scss */
+.services .services_info .services_info-about .services_info-about-text p {
+  padding-top: 30px;
+  font-size: 13px;
+  opacity: .5;
+}

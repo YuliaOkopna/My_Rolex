@@ -1,0 +1,52 @@
+/* line 2, ../sass/work.scss */
+.work .work_about {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  padding-bottom: 130px;
+}
+/* line 7, ../sass/work.scss */
+.work .work_about .work_about-us {
+  background-color: #2d2d2d;
+  width: 31%;
+  margin: 9px;
+  text-align: center;
+}
+/* line 12, ../sass/work.scss */
+.work .work_about .work_about-us img {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  width: 35px;
+  height: 123px;
+}
+/* line 18, ../sass/work.scss */
+.work .work_about .work_about-us h4 {
+  color: #ffffff;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* line 24, ../sass/work.scss */
+.work .work_about .work_about-us p {
+  color: #ffffff;
+  font-size: 13px;
+  padding: 30px 15px 45px 15px;
+}
+/* line 29, ../sass/work.scss */
+.work .work_about .work_about-us:hover {
+  background-color: #e55454;
+  cursor: pointer;
+}
+/* line 35, ../sass/work.scss */
+.work .work_bg {
+  background: url(../img/bg-3.jpg) no-repeat center top/cover;
+}
+/* line 37, ../sass/work.scss */
+.work .work_bg .services_text {
+  color: #ffffff;
+  padding-bottom: 50px;
+}
+/* line 40, ../sass/work.scss */
+.work .work_bg .services_text p {
+  color: #ffffff;
+}

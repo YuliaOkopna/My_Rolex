@@ -1,0 +1,124 @@
+.main_screen{
+    background: url(../img/logo_new.jpg) no-repeat  center top/cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.header{
+    display: flex;  
+    justify-content: space-between;
+    padding-top: 50px;
+    .logo{
+        display: flex;
+        .logo_img{
+            border: 4px solid #e34141;
+            border-radius: 9px;
+            width: 40px;
+            height: 40px;
+        }
+    
+        .logo_text{
+            text-transform: uppercase;
+            padding-left: 5px;
+    
+            h1{
+                color: #ffffff;
+                font-size: 30px;
+            }
+            p{
+                color: #c2c2c2;
+                font-size: 12px;
+            }
+        }
+    }
+    .menu{
+        position: relative;
+        width: 45px;
+        height: 45px;
+        .menu_icon{
+            a.icon-menu{
+                font-size: 42px;
+                color: #ffffff;
+                cursor: pointer;
+            }
+        }
+        ul:after {
+            display: block;
+            content: ' ';
+            clear: both;
+            float: none;
+        }
+        .nav_list{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            li.nav_item{
+                position: relative;
+                a{
+                    display: block;
+                    color: #ffffff;
+                    background:transparent;
+                    border: 1px #c2c2c2 solid;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-size: 15px;
+                    text-align: center;
+                    margin-bottom: 3px;
+                    font-weight: bold;
+                    height: 20px;
+                    width: 130px;
+                    &:hover{
+                        background-color: #c2c2c2;
+                        color: #e34141;
+                    }
+                }
+               .subnav_item{
+                   display: none;
+                   position: absolute;
+                   left: -100px;
+                   top: 0px;
+                   li{
+                       display: block;
+                       a{
+                           font-size: 11px;
+                           display: block;
+                           width: 100px;
+                           background-color: #e34141;
+                           z-index: 1;
+                       }
+                   }
+               } 
+            }
+        }  
+        ul.nav_list > li:hover > ul.subnav_item{
+            display: block;
+        }
+    }
+    .menu .nav_list{
+        display: none
+    }
+
+    .menu:hover .nav_list{
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: 100%;
+        left: -100px;
+    }
+    
+}
+.main_text{
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-top: 250px;
+    h2{
+        font-size: 52px;
+    }
+    h1{
+        font-size: 104px;
+    }
+    p{
+        font-size: 26px;
+    }
+}
+

@@ -1,0 +1,158 @@
+/* line 1, ../sass/footer.scss */
+footer {
+  background: url(../img/map.png) no-repeat center top/cover;
+}
+/* line 3, ../sass/footer.scss */
+footer .name {
+  display: flex;
+  width: 100%;
+  padding-top: 60px;
+}
+/* line 7, ../sass/footer.scss */
+footer .name .footer_name {
+  width: 50%;
+  height: 34px;
+  margin-right: 25px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  color: #7a7a7a;
+  font-size: 14px;
+}
+/* line 18, ../sass/footer.scss */
+footer label .label_message {
+  font-size: 15px;
+  padding-left: 14px;
+  color: #7a7a7a;
+  margin-bottom: 35px;
+}
+/* line 25, ../sass/footer.scss */
+footer .button_captcha {
+  display: flex;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding-bottom: 45px;
+}
+/* line 31, ../sass/footer.scss */
+footer .button_captcha .captcha {
+  width: 50%;
+  height: 40px;
+  margin-left: -25px;
+  margin-right: 25px;
+  background-color: #2a2a2a;
+  border: 1px #d4d4d4 solid;
+  text-align: center;
+  border-radius: 5px;
+}
+/* line 41, ../sass/footer.scss */
+footer .button_captcha .captcha_opasity {
+  background: transparent;
+  border: 1px #d4d4d4 solid;
+  text-align: center;
+  border-radius: 5px;
+}
+/* line 48, ../sass/footer.scss */
+footer .submit {
+  color: #2d2d2d;
+  text-align: center;
+  margin: auto;
+}
+/* line 52, ../sass/footer.scss */
+footer .submit .submit_button {
+  background-color: #e54c4c;
+  border: 1px #e54c4c solid;
+  border-radius: 2px;
+  width: 750px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* line 63, ../sass/footer.scss */
+footer .submit .submit_button:hover {
+  background-color: #ffffff;
+}
+/* line 68, ../sass/footer.scss */
+footer .footer_text {
+  color: #ffffff;
+  text-align: center;
+}
+/* line 71, ../sass/footer.scss */
+footer .footer_text h1 {
+  font-size: 48px;
+  text-transform: uppercase;
+  padding-top: 90px;
+  padding-bottom: 25px;
+}
+/* line 77, ../sass/footer.scss */
+footer .footer_text p {
+  font-size: 13px;
+  padding-bottom: 130px;
+}
+/* line 82, ../sass/footer.scss */
+footer .footer_logo {
+  max-width: 200px;
+  margin: auto;
+}
+/* line 85, ../sass/footer.scss */
+footer .footer_logo .logo {
+  display: flex;
+  padding-top: 50px;
+}
+/* line 88, ../sass/footer.scss */
+footer .footer_logo .logo .logo_img {
+  border: 4px solid #e34141;
+  border-radius: 9px;
+  width: 40px;
+  height: 40px;
+}
+/* line 94, ../sass/footer.scss */
+footer .footer_logo .logo .logo_text {
+  text-transform: uppercase;
+  padding-left: 5px;
+}
+/* line 97, ../sass/footer.scss */
+footer .footer_logo .logo .logo_text h1 {
+  color: #ffffff;
+  font-size: 30px;
+}
+/* line 101, ../sass/footer.scss */
+footer .footer_logo .logo .logo_text p {
+  color: #c2c2c2;
+  font-size: 12px;
+}
+/* line 107, ../sass/footer.scss */
+footer .footer_logo .icon {
+  padding-top: 35px;
+  text-align: center;
+  padding-bottom: 45px;
+}
+/* line 111, ../sass/footer.scss */
+footer .footer_logo .icon a {
+  color: #ffffff;
+  padding-left: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* line 116, ../sass/footer.scss */
+footer .footer_logo .icon a:hover {
+  color: #e54c4c;
+}
+/* line 120, ../sass/footer.scss */
+footer .footer_logo .icon a:first-child {
+  padding-left: 0px;
+}
+/* line 127, ../sass/footer.scss */
+footer .footer_end {
+  background-color: #131313;
+}
+/* line 129, ../sass/footer.scss */
+footer .footer_end p {
+  color: #ffffff;
+  font-size: 13px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}

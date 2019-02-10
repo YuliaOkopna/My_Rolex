@@ -1,0 +1,46 @@
+.work{
+    .work_about{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        padding-bottom: 130px;
+        .work_about-us{
+            background-color: #2d2d2d;
+            width: 31%;
+            margin: 9px;
+            text-align: center;
+            img{
+                padding-top: 40px;
+                padding-bottom: 50px;
+                width: 35px;
+                height: 123px;
+            }
+            h4{
+                color: #ffffff;
+                font-size: 18px;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+            p{
+                color: #ffffff;
+                font-size: 13px;
+                padding: 30px 15px 45px 15px;
+            }
+                &:hover{
+                    background-color: #e55454;
+                    cursor: pointer;
+                }
+        }    
+    }
+    .work_bg{
+        background: url(../img/bg-3.jpg) no-repeat  center top/cover;
+        .services_text{
+            color: #ffffff;
+            padding-bottom: 50px;
+            p{
+                color: #ffffff;
+            }
+        }
+    }
+
+}
