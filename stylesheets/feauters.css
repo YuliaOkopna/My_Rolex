@@ -108,3 +108,58 @@
 .feautures .feautures_box .feautures_box-about .feautures_box-about-img .my_text .my_arrow p:hover {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 1050px) {
+  /* line 96, ../sass/feauters.scss */
+  .feautures .feautures_box .feautures_box-about .feautures_box-about-img .my_text h2 {
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 960px) {
+  /* line 102, ../sass/feauters.scss */
+  .feautures .feautures_box .feautures_box-about .feautures_box-about-img .my_text h3 {
+    font-size: 28px;
+  }
+
+  /* line 105, ../sass/feauters.scss */
+  .feautures .feautures_box .feautures_box-about .feautures_box-about-img .my_text h2 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 650px) {
+  /* line 111, ../sass/feauters.scss */
+  .feautures .feautures_box .feautures_box-about .feautures_box-about-img .my_logo {
+    padding-top: 20px;
+  }
+
+  /* line 114, ../sass/feauters.scss */
+  .feautures .feautures_box .feautures_box-about .feautures_box-about-img .my_logo .my_logo-text h2 {
+    font-size: 20px;
+  }
+
+  /* line 117, ../sass/feauters.scss */
+  .feautures .feautures_box .feautures_box-about .feautures_box-about-img .my_text h3 {
+    font-size: 25px;
+  }
+
+  /* line 120, ../sass/feauters.scss */
+  .feautures .feautures_box .feautures_box-about .feautures_box-about-img .my_text h2 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 586px) {
+  /* line 126, ../sass/feauters.scss */
+  .feautures .feautures_box .feautures_box-about .feautures_box-about-img .my_logo .my_logo-text h2 {
+    font-size: 15px;
+  }
+
+  /* line 129, ../sass/feauters.scss */
+  .feautures .feautures_box .feautures_box-about .feautures_box-about-img .my_text h3 {
+    font-size: 15px;
+  }
+
+  /* line 132, ../sass/feauters.scss */
+  .feautures .feautures_box .feautures_box-about .feautures_box-about-img .my_text h2 {
+    font-size: 20px;
+  }
+}

@@ -41,3 +41,33 @@
         }
     }
 }
+
+@media screen and (max-width:720px){
+    .acces .acces_box .acces_text h2 {
+        font-size: 38px;
+    }
+    .acces .acces_box .acces_text p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:530px){
+    .acces .acces_box .acces_phone {
+        display: none;
+    }
+    .acces .acces_box .acces_text {
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .acces .acces_box .acces_text h2 {
+        font-size: 42px;
+    }
+    .acces .acces_box .acces_text p {
+        font-size: 20px;
+    }
+    .acces .acces_box .acces_text .arrow {
+        justify-content: center;
+    }
+    
+}

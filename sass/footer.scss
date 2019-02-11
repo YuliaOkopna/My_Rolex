@@ -16,6 +16,8 @@ footer{
     }
     label{
         .label_message{
+            width: 98%;
+            height: 200px;
             font-size: 15px;
             padding-left: 14px;
             color: #7a7a7a;
@@ -53,7 +55,7 @@ footer{
             background-color: #e54c4c;
             border: 1px #e54c4c solid;
             border-radius: 2px;
-            width: 750px;
+            width: 80%;
             padding-top: 10px;
             padding-bottom: 10px;
             text-transform: uppercase;

@@ -3,21 +3,22 @@
   display: flex;
   width: 100%;
   padding-top: 130px;
+  flex-wrap: wrap;
 }
-/* line 6, ../sass/section.scss */
+/* line 7, ../sass/section.scss */
 .section_main .section_about {
   width: 25%;
   text-align: center;
   margin-bottom: 90px;
 }
-/* line 11, ../sass/section.scss */
+/* line 12, ../sass/section.scss */
 .section_main .section_about img {
   width: 40px;
   height: 40px;
   margin-bottom: 65px;
   transition: .2s;
 }
-/* line 18, ../sass/section.scss */
+/* line 19, ../sass/section.scss */
 .section_main .section_about img:hover {
   width: 117px;
   height: 117px;
@@ -28,14 +29,21 @@
   margin-bottom: 20px;
   transition: .2s;
 }
-/* line 31, ../sass/section.scss */
+/* line 32, ../sass/section.scss */
 .section_main .section_about h3 {
   color: #232323;
   font-size: 30px;
   padding-bottom: 34px;
 }
-/* line 37, ../sass/section.scss */
+/* line 38, ../sass/section.scss */
 .section_main .section_about p {
   color: #666666;
   font-size: 13px;
+}
+
+@media screen and (max-width: 769px) {
+  /* line 47, ../sass/section.scss */
+  .section_main .section_about {
+    width: 50%;
+  }
 }

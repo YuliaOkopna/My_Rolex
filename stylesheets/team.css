@@ -2,20 +2,23 @@
 .team .team_about {
   display: flex;
   width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-/* line 5, ../sass/team.scss */
+/* line 7, ../sass/team.scss */
 .team .team_about .team_about-us {
+  width: 33.3%;
   text-align: center;
   color: #848994;
   margin-bottom: 70px;
 }
-/* line 9, ../sass/team.scss */
+/* line 12, ../sass/team.scss */
 .team .team_about .team_about-us img {
   width: 185px;
   height: 186px;
   border-radius: 100px;
 }
-/* line 14, ../sass/team.scss */
+/* line 17, ../sass/team.scss */
 .team .team_about .team_about-us h2 {
   color: #3b4550;
   font-size: 14px;
@@ -23,41 +26,41 @@
   padding-top: 30px;
   font-weight: bold;
 }
-/* line 21, ../sass/team.scss */
+/* line 24, ../sass/team.scss */
 .team .team_about .team_about-us h3 {
   color: #9fa4af;
   text-transform: uppercase;
   padding-top: 5px;
 }
-/* line 26, ../sass/team.scss */
+/* line 29, ../sass/team.scss */
 .team .team_about .team_about-us p {
   font-size: 13px;
   line-height: 26px;
   padding: 20px 30px;
 }
-/* line 32, ../sass/team.scss */
+/* line 35, ../sass/team.scss */
 .team .team_about .team_about-us .team_icon a {
   text-decoration: none;
   color: #c5c9d2;
   font-size: 13px;
 }
-/* line 36, ../sass/team.scss */
+/* line 39, ../sass/team.scss */
 .team .team_about .team_about-us .team_icon a:hover {
   color: #dd0606;
 }
-/* line 40, ../sass/team.scss */
+/* line 43, ../sass/team.scss */
 .team .team_about .team_about-us .team_icon .icon-facebook {
   padding-left: 25px;
 }
-/* line 43, ../sass/team.scss */
+/* line 46, ../sass/team.scss */
 .team .team_about .team_about-us .team_icon .icon-google {
   padding-left: 25px;
 }
-/* line 49, ../sass/team.scss */
+/* line 52, ../sass/team.scss */
 .team .team_bg {
   background-color: #e54c4c;
 }
-/* line 51, ../sass/team.scss */
+/* line 54, ../sass/team.scss */
 .team .team_bg .team_bg-text {
   display: flex;
   width: 100%;
@@ -65,14 +68,14 @@
   padding-top: 60px;
   padding-bottom: 50px;
 }
-/* line 57, ../sass/team.scss */
+/* line 60, ../sass/team.scss */
 .team .team_bg .team_bg-text p {
   font-size: 22px;
   word-spacing: 2px;
   letter-spacing: 2px;
   padding-left: 70px;
 }
-/* line 63, ../sass/team.scss */
+/* line 66, ../sass/team.scss */
 .team .team_bg .team_bg-text a {
   font-size: 20px;
   color: #ffffff;
@@ -80,7 +83,14 @@
   padding-top: 1px;
   margin-left: 90px;
 }
-/* line 69, ../sass/team.scss */
+/* line 72, ../sass/team.scss */
 .team .team_bg .team_bg-text a:hover {
   color: #101113;
+}
+
+@media screen and (max-width: 769px) {
+  /* line 81, ../sass/team.scss */
+  .team .team_about .team_about-us {
+    width: 100%;
+  }
 }

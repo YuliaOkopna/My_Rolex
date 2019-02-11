@@ -51,3 +51,43 @@
 .acces .acces_box .acces_text .arrow p:hover {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 720px) {
+  /* line 46, ../sass/acces.scss */
+  .acces .acces_box .acces_text h2 {
+    font-size: 38px;
+  }
+
+  /* line 49, ../sass/acces.scss */
+  .acces .acces_box .acces_text p {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 530px) {
+  /* line 55, ../sass/acces.scss */
+  .acces .acces_box .acces_phone {
+    display: none;
+  }
+
+  /* line 58, ../sass/acces.scss */
+  .acces .acces_box .acces_text {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /* line 63, ../sass/acces.scss */
+  .acces .acces_box .acces_text h2 {
+    font-size: 42px;
+  }
+
+  /* line 66, ../sass/acces.scss */
+  .acces .acces_box .acces_text p {
+    font-size: 20px;
+  }
+
+  /* line 69, ../sass/acces.scss */
+  .acces .acces_box .acces_text .arrow {
+    justify-content: center;
+  }
+}

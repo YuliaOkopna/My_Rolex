@@ -126,7 +126,7 @@
 .main_text {
   color: #ffffff;
   text-transform: uppercase;
-  padding-top: 250px;
+  padding-top: 290px;
 }
 /* line 114, ../sass/main_screen.scss */
 .main_text h2 {
@@ -139,4 +139,95 @@
 /* line 120, ../sass/main_screen.scss */
 .main_text p {
   font-size: 26px;
+}
+
+@media screen and (max-width: 790px) {
+  /* line 127, ../sass/main_screen.scss */
+  .main_text h2 {
+    font-size: 45px;
+  }
+  /* line 130, ../sass/main_screen.scss */
+  .main_text h1 {
+    font-size: 90px;
+  }
+  /* line 133, ../sass/main_screen.scss */
+  .main_text p {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 769px) {
+  /* line 140, ../sass/main_screen.scss */
+  .main_text {
+    padding-top: 390px;
+  }
+
+  /* line 144, ../sass/main_screen.scss */
+  .main_text h2 {
+    font-size: 42px;
+  }
+  /* line 147, ../sass/main_screen.scss */
+  .main_text h1 {
+    font-size: 85px;
+  }
+  /* line 150, ../sass/main_screen.scss */
+  .main_text p {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 650px) {
+  /* line 157, ../sass/main_screen.scss */
+  .main_text {
+    padding-top: 350px;
+  }
+
+  /* line 161, ../sass/main_screen.scss */
+  .main_text h2 {
+    font-size: 38px;
+  }
+  /* line 164, ../sass/main_screen.scss */
+  .main_text h1 {
+    font-size: 70px;
+  }
+  /* line 167, ../sass/main_screen.scss */
+  .main_text p {
+    font-size: 19px;
+  }
+}
+@media screen and (max-width: 560px) {
+  /* line 175, ../sass/main_screen.scss */
+  .main_text {
+    padding-top: 400px;
+  }
+
+  /* line 179, ../sass/main_screen.scss */
+  .main_text h2 {
+    font-size: 32px;
+  }
+  /* line 182, ../sass/main_screen.scss */
+  .main_text h1 {
+    font-size: 50px;
+  }
+  /* line 185, ../sass/main_screen.scss */
+  .main_text p {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 395px) {
+  /* line 192, ../sass/main_screen.scss */
+  .main_text {
+    padding-top: 400px;
+  }
+
+  /* line 196, ../sass/main_screen.scss */
+  .main_text h2 {
+    font-size: 30px;
+  }
+  /* line 199, ../sass/main_screen.scss */
+  .main_text h1 {
+    font-size: 35px;
+  }
+  /* line 202, ../sass/main_screen.scss */
+  .main_text p {
+    font-size: 18px;
+  }
 }

@@ -2,6 +2,7 @@
     display: flex;
     width: 100%;
     padding-top: 130px;
+    flex-wrap: wrap;
 
     .section_about{
         width: 25%;
@@ -39,5 +40,11 @@
             font-size: 13px;
         }
 
+    }
+}
+
+@media screen and (max-width:769px){
+    .section_main .section_about {
+        width: 50%;
     }
 }
